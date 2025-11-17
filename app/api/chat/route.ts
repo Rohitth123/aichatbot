@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
 
     if (!response.ok) {
       const error = await response.json();
-      console.error('[v0] Gemini API error:', error);
+      console.error('Gemini API error:', error);
       return NextResponse.json(
         { error: 'Failed to get AI response' },
         { status: response.status }
@@ -50,7 +50,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ content });
   } catch (error) {
-    console.error('[v0] Chat API error:', error);
+    console.error('Chat API error:', error);
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }

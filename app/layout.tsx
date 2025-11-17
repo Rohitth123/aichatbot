@@ -14,11 +14,11 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'AI Chat with OpenRouter',
-  description: 'Responsive AI chat application with persistent sessions powered by OpenRouter',
-  generator: 'v0.app',
+  title: 'AI Chat',
+  description: 'Responsive AI chat application',
+  generator: 'app',
   openGraph: {
-    title: 'AI Chat with OpenRouter',
+    title: 'AI Chat Application',
     description: 'Responsive AI chat application with persistent sessions',
     type: 'website',
   },
